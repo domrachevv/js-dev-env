@@ -1,5 +1,5 @@
-import {getUsers} from './api/userApi';
-import {deleteUser} from './api/userApi';
+import {getUsers, deleteUser} from './api/userApi';
+import './index.css';
 
 getUsers().then(result => {
     let usersBody = "";
